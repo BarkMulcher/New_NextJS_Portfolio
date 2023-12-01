@@ -151,6 +151,11 @@
   background-clip: content-box;
 }
 
+/* gitlab svg */
+.cls-2 {
+  fill: #fc6d26;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
