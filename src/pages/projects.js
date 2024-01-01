@@ -25,6 +25,10 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 <FramerImage src={img} alt={title} className='w-full h-auto'
                     whileHover={{scale:1.05}}
                     transition={{duration:.2}}
+                    priority
+                    sizes='(max-width: 768px) 100vw,
+                            (max-width: 1200px) 50vw,
+                            50vw'
                 />
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
@@ -38,7 +42,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
                 <div className='mt-2 flex items-center'>
                 <Link href={github} target='_blank' className='w-10'><GithubIcon /></Link>
-                <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 lext-lg font-semibold'>Visit Project</Link>
+                <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 lext-lg font-semibold dark:bg-light dark:text-light'>Visit Project</Link>
                 </div>
             </div>
         </article>
@@ -49,10 +53,10 @@ const Project = ({ title, summary, type, img, link, github }) => {
     return (
         <article className='w-full flex flex-col items-center justify-center
             rounded-2xl border border-solid border-dark bg-light p-6
-            relative dark:bg-dark'
+            relative dark:bg-dark dark:border-light'
         >
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
-                rounded-br-3xl'
+                rounded-br-3xl dark:bg-light'
             />
             <Link
             href={link}
