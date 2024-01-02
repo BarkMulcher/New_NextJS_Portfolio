@@ -34,8 +34,6 @@ const AnimatedNumbers = ({ value }) => {
     )
 }
 
-// somewhere at or before 5:03:00 is the cause of this breakpoint issue
-
 const About = () => {
     return (
         <>

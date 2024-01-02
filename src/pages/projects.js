@@ -46,7 +46,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 <Link
                     href={link}
                     target='_blank'
-                    className='ml-4 rounded-lg bg-dark text-light p-2 px-6 lext-lg font-semibold dark:bg-light dark:text-light sm:px-4 sm:text-base'
+                    className='ml-4 rounded-lg bg-dark text-light p-2 px-6 lext-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'
                     aria-label='Visit Project'
                 >
                     Visit Project
