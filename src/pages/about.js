@@ -43,10 +43,10 @@ const About = () => {
                 <title>Luke Haskell | About Page</title>
                 <meta name='description' content='about page' />
             </Head>
-            <main className='flex w-full flex-col items-center justify-center dark:text-light'>
+            <main className={`flex w-full flex-col items-center justify-center dark:text-light`}>
                 <Layout className='pt-16'>
-                    <AnimatedText text='Passion Fuels Purpose!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
-                    <div className='grid w-full grid-cols-8 md:grid-cols-1 gap-16 sm:gap-8'>
+                    <AnimatedText text='Passion Fuels Purpose!' className='mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+                    <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='biography col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:col-span-8 md:order-2'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
                             <p className='font-medium'>

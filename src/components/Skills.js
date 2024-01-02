@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {motion} from 'framer-motion'
 
 const Skill = ({name, x, y}) => {
+    const ref = useRef(null)
     return (
         <motion.div
+        ref={ref}
         className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
             py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light
             lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent
@@ -21,6 +23,7 @@ const Skill = ({name, x, y}) => {
 }
 
 const Skills = () => {
+    const ref = useRef(null)
     return (
         <>
             <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>Skills</h2>
@@ -28,11 +31,13 @@ const Skills = () => {
                 lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
                 lg:bg-circularLightLg lg:dark:bg-circularDarkLg
                 md:bg-circularLightMd md:dark:bg-circularDarkMd
-                sm:bg-circularLightSm sm:dark:bg-circularDarkSm'>
+                sm:bg-circularLightSm sm:dark:bg-circularDarkSm'
+                ref={ref}
+            >
                 <motion.div
                     className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
                     p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2'
-                whileHover={{scale:1.05}}>
+                    whileHover={{scale:1.05}}>
                     Web
                 </motion.div>
                 <Skill name='HTML' x='-5vw' y='-10vw' />
