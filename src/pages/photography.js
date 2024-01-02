@@ -15,7 +15,7 @@ const Photograph = ({ img, title }) => {
         justify-between bg-light text-dark first:mt-0 border border-solid border-dark
         border-r-4 border-b-4'>
             <div className='w-full h-600px '>
-                <Image title={title} src={img} className='object-contain'/>
+                <Image alt='scenic photograph' title={title} src={img} className='object-contain'/>
             </div>
 
         </div>
