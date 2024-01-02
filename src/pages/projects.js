@@ -9,7 +9,7 @@ import {motion} from 'framer-motion'
 import catapi from '../../public/images/projects/catapi.png'
 import indexmori from '../../public/images/projects/indexmori.jpg'
 import sheltr from '../../public/images/projects/shelter.png'
-import TeamGen from '../../public/images/projects/teamgen.jpg'
+import teamgen from '../../public/images/projects/teamgen.jpg'
 import reelistr from '../../public/images/projects/judgement-day.jpg'
 
 const FramerImage = motion(Image)
@@ -142,7 +142,7 @@ const Projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                img={TeamGen}
+                                img={teamgen}
                                 title="Team Profile Generator"
                                 summary="A simple CLI tool for creating your professional team, utilizing HTML, CSS, JS, Node.JS, and Bulma. This is not a deployed site."
                                 link='https://github.com/BarkMulcher/Team-Profile-Generator'
