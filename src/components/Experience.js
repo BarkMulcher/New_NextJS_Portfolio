@@ -46,23 +46,18 @@ const Experience = () => {
                 md:w-[2px] md:left-[30px] xs:left-[20px]' />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                    position='Software Developer' company='Amazon'
-                    time='2020-2021' address='Seattle, WA.'
-                    work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such
-                    as product recommendations and user reviews, and optimizing the app's performance and reliability."
+                    position='Full-Stack Developer' company='Hack-Reactor Boot Camp'
+                    time='2023-2023' address='Remote, US'
+                    work="More advanced software engineering boot camp wherein I developed multiple software applications, utilizing technologies such as
+                    Python, Django, JavaScript, React. Particular focus on optimizing performance and reliability."
                     />
                     <Details
-                    position='Software Developer' company='Amazon'
-                    time='2020-2021' address='Seattle, WA.'
-                    work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such
-                    as product recommendations and user reviews, and optimizing the app's performance and reliability."
+                    position='Full-Stack Developer' company='University of New Hampshire'
+                    time='2022-2022' address='Remote, US'
+                    work="Beginner-Intermediate coding boot camp where I learned web development skills from the ground-up. Utilizing technologies
+                    such as HTML, CSS, JavaScript, Handlebars, MongoDB, Mongoose, Node.JS and Heroku deployments."
                     />
-                    <Details
-                    position='Software Developer' company='Amazon'
-                    time='2020-2021' address='Seattle, WA.'
-                    work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such
-                    as product recommendations and user reviews, and optimizing the app's performance and reliability."
-                    />
+
                 </ul>
             </div>
         </div>

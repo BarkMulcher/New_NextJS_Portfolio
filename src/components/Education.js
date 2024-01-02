@@ -35,7 +35,7 @@ const Education = () => {
     return (
         <div className='my-64'>
             <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-                Experience
+                Education
             </h2>
             <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
                 <motion.div
@@ -43,11 +43,24 @@ const Education = () => {
                 className='absolute left-8 top-0 w-[4px] h-full bg-dark origin-top md:w-[2px] md:left-[30px] xs:left-[20px] rounded-full dark:bg-primaryDark dark:shadow-3xl' />
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
                     <Details
-                    type='N/A'
+                    type='Software Engineering Certificate'
+                    time='2023-2023'
+                    place='Hack-Reactor'
+                    info='More advanced software engineering boot camp wherein I developed multiple software applications, utilizing technologies such as
+                    Python, Django, JavaScript, React. Particular focus on optimizing performance and reliability.'
+                    />
+                    <Details
+                    type='Full-Stack Web Development Certificate'
+                    time='2022-2022'
+                    place='University of New Hampshire'
+                    info='Beginner-Intermediate coding boot camp where I learned web development skills from the ground-up. Utilizing technologies
+                    such as HTML, CSS, JavaScript, Handlebars, MongoDB, Mongoose, Node.JS and Heroku deployments.'
+                    />
+                    <Details
+                    type='Partial B.S. in Engineering'
                     time='2013-2014'
                     place='Oregon State University'
-                    info='Relevant courses include
-                    Intelligence.'
+                    info='Attended Oregon State University for one year, studying engineering.'
                     />
                 </ul>
             </div>
