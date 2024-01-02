@@ -54,12 +54,12 @@ const About = () => {
 
                             <p className='my-4 font-medium'>
                                 and I believe that experience and perspective is of great benefit. I spent eight years in the semiconductor
-                                manufacturing field, an industry whose existence relies on the innovation and implementation of the world's most cutting-edge technology.
+                                manufacturing field, an industry whose existence relies on the innovation and implementation of the world&aposs most cutting-edge technology.
                             </p>
 
                             <p className='font-medium'>
                                 My experience in that realm is what led me to continue my personal growth in web development. The dedication
-                                required in that role remains with me, and shines through to my new craft. Whether I'm working on a website, mobile app, or
+                                required in that role remains with me, and shines through to my new craft. Whether I&aposm working on a website, mobile app, or
                                 local software, I bring my commitment to design excellence and user-centered thinking to
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
