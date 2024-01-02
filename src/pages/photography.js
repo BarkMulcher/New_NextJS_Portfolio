@@ -26,7 +26,7 @@ const Photography = () => {
     return (
         <div className='w-full flex flex-col items-center justify-center overflow-hidden'>
             <Layout className='pt-16'>
-                <AnimatedText text='My Photography' className='mb-16' />
+                <AnimatedText text='My Photography' className='!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
                 <ul className='grid grid-cols-2 gap-12'>
                     <Photograph
                     title="Sierra Nevada, California"
