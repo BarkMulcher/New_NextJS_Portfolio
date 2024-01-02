@@ -6,7 +6,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import {motion} from 'framer-motion'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import catapi from '../../public/images/projects/catapi.png'
+import indexmori from '../../public/images/projects/indexmori.jpg'
+import sheltr from '../../public/images/projects/shelter.png'
+import TeamGen from '../../public/images/projects/teamgen.jpg'
+import reelistr from '../../public/images/projects/judgement-day.jpg'
 
 const FramerImage = motion(Image)
 
@@ -29,7 +33,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                     priority
                     sizes='(max-width: 768px) 100vw,
                             (max-width: 1200px) 50vw,
-                            50vw'
+                            33vw'
                 />
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
@@ -115,50 +119,51 @@ const Projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12 '>
                             <FeaturedProject
-                            img={project1}
+                            img={sheltr}
                             title="Sheltr.tech"
-                            summary="A professional animal shelter website"
-                            link='/'
-                            github='/'
+                            summary="A professional animal shelter website created as part of a group project in a coding bootcamp. It is a full-stack MERN application."
+                            link='https://sheltr.tech/'
+                            github='https://github.com/BarkMulcher/sheltr'
                             type='Featured Project'
                             />
 
                         </div>
                         <div className='col-span-6 dark:text-light sm:col-span-12'>
                             <Project
-                                img={project1}
-                                title="React Portfolio Website"
-                                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
-                                page transitions, cool background effects, unique design and it is mobile responsive."
-                                link='/'
-                                github='/'
+                                img={indexmori}
+                                title="Index Mori"
+                                summary="A Halloween-themed early group project creating an API & database, and incorporates 'vanilla' JavaScript, CSS, HTML, and
+                                the Handlebars templating library.
+                                Users can create accounts, authenticate, and create unofficial wills for their belongings. Project hosted on Heroku with JawsDB."
+                                link='https://serene-shelf-90086.herokuapp.com/'
+                                github='https://github.com/BarkMulcher/Index-Mori'
                                 type='Project'
                                 />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                img={project1}
-                                title="React Portfolio Website"
-                                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
-                                page transitions, cool background effects, unique design and it is mobile responsive."
-                                link='/'
-                                github='/'
+                                img={TeamGen}
+                                title="Team Profile Generator"
+                                summary="A simple CLI tool for creating your professional team, utilizing HTML, CSS, JS, Node.JS, and Bulma. This is not a deployed site."
+                                link='https://github.com/BarkMulcher/Team-Profile-Generator'
+                                github='https://github.com/BarkMulcher/Team-Profile-Generator'
                                 type='Project'
                             />
                         </div>
                         <div className='col-span-12 sm:col-span-12'>
                             <FeaturedProject
-                                img={project1}
-                                title="React Portfolio Website"
-                                summary="A professional animal shelter website"
-                                link='/'
-                                github='/'
+                                img={reelistr}
+                                title="Reelistr"
+                                summary="A professional movie-database website built as part of a group project in a coding bootcamp. It is a full-stack application utilizing
+                                Python, PostgreSQL, React, and Node.js. Custom reelistr.com domain is owned by a group member, and is no longer active."
+                                link='https://barkmulcher.gitlab.io/module3-project-gamma/'
+                                github='https://gitlab.com/BarkMulcher/module3-project-gamma'
                                 type='Featured Project'
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                img={project1}
+                                img={catapi}
                                 title="React Portfolio Website"
                                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
                                 page transitions, cool background effects, unique design and it is mobile responsive."
@@ -169,12 +174,11 @@ const Projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                img={project1}
-                                title="React Portfolio Website"
-                                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
-                                page transitions, cool background effects, unique design and it is mobile responsive."
+                                img={catapi}
+                                title="CatFacts API Project"
+                                summary="My very first group project's website, wherein we practiced using a 3rd-party API. Not a deployed site."
                                 link='/'
-                                github='/'
+                                github='https://github.com/BarkMulcher/Cat-Facts-API'
                                 type='Project'
                             />
                         </div>
