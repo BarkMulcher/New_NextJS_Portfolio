@@ -97,8 +97,8 @@ const Articles = () => {
             </Head>
             <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text='Articles' className='mb-16' />
-                    <ul className='grid grid-cols-2 gap-16'>
+                    <AnimatedText text='Articles' className='!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+                    <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                         <FeaturedArticle
                         title='How to Increase Your IQ by Eating Gifted Children'
                         summary='read title'
@@ -115,7 +115,7 @@ const Articles = () => {
                         />
                     </ul>
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
-                    <ul>
+                    <ul className='flex flex-col items-center relative'>
                         <Article
                             title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
                             date='12/1/2023'
