@@ -177,7 +177,7 @@ const Projects = () => {
                                 img={catapi}
                                 title="CatFacts API Project"
                                 summary="My very first group project's website, wherein we practiced using a 3rd-party API. Not a deployed site."
-                                link='/'
+                                link='https://github.com/BarkMulcher/Cat-Facts-API'
                                 github='https://github.com/BarkMulcher/Cat-Facts-API'
                                 type='Project'
                             />

@@ -116,7 +116,7 @@ const Navbar = () => {
                         <GitlabIcon />
                     </motion.a>
                     <motion.a
-                        href='https://www.github.com/barkmulcher'
+                        href='https://www.linkedin.com/in/lucas-haskell'
                         target={'_blank'}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -125,7 +125,7 @@ const Navbar = () => {
                         <LinkedInIcon />
                     </motion.a>
                     <motion.a
-                        href='https://www.github.com/barkmulcher'
+                        href='https://dribbble.com/luke_haskell'
                         target={'_blank'}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
